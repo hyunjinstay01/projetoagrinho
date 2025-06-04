@@ -1,0 +1,32 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    min-height: 100vh; 
+  }
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  main {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: justify;
+  }
+  
